@@ -14,45 +14,48 @@
 </head>
 <body class="center-flex">
 
-  <!-- Rating state start -->
-  <main class="rating-card">
-  <div id="star" class="ball"></div>
 
-  <h2>How did we do?</h2>
+  <main class="">
+    <!-- Rating state start -->
+    <section class="rating-card">
+      <div id="star" class="ball"></div>
 
-  <p>Please let us know how we did with your support request. All feedback is appreciated 
-    to help us improve our offering!</p>
+      <h2>How did we do?</h2>
 
-  <form action="" method="post" id="rating-form">
-    <span class="rating-bar">
-      <input type="radio" name="rating" id="1star">
-      <label for="1star" class="ball"><span>1</span></label>
-      <input type="radio" name="rating" id="2star">
-      <label for="2star" class="ball"><span>2</span></label>
-      <input type="radio" name="rating" id="3star">
-      <label for="3star" class="ball"><span>3</span></label>
-      <input type="radio" name="rating" id="4star">
-      <label for="4star" class="ball"><span>4</span></label>
-      <input type="radio" name="rating" id="5star">
-      <label for="5star" class="ball"><span>5</span></label>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
 
-    </span>
+      <form action="" method="post" id="rating-form">
+        <span class="rating-bar">
+          <input type="radio" name="rating" id="1star" value="1">
+          <label for="1star" class="ball"><span>1</span></label>
+          <input type="radio" name="rating" id="2star" value="2">
+          <label for="2star" class="ball"><span>2</span></label>
+          <input type="radio" name="rating" id="3star" value="3">
+          <label for="3star" class="ball"><span>3</span></label>
+          <input type="radio" name="rating" id="4star" value="4">
+          <label for="4star" class="ball"><span>4</span></label>
+          <input type="radio" name="rating" id="5star" value="5">
+          <label for="5star" class="ball"><span>5</span></label>
 
-    <button class="ball">Submit</button>
-  </form>
+        </span>
 
-  <!-- Rating state end -->
+        <button class="ball">Submit</button>
+      </form>
+    </section>
+    <!-- Rating state end -->
 
-  <!-- Thank you state start -->
+    <!-- Thank you state start -->
+    <section class="thank-you-card is-hidden">
+      <div id="thank-you-image"></div>
+      <span id="rating-selection">You selected 4 out of 5</span>
+      <h2>Thank you!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch!</p>
 
-  <!-- You selected out of 5
+    </section>
+    <!-- Thank you state end -->
 
-  <h2>Thank you!</h2>
-
-  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
-    don't hesitate to get in touch!</p> -->
-
-  <!-- Thank you state end -->
   </main>
   <script src="js/main.js"></script>
 </body>
