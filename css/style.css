@@ -65,6 +65,7 @@ main {
     height: 400px;
     border-radius: 20px;
     padding: 40px;
+    margin: 0 3%;
 }
 
 /*
@@ -182,6 +183,12 @@ main {
 }
 
 /* ------------ Submit button ------------ */
+
+/*
+*******************************************
+*                  States                 *
+*******************************************
+*/
 
 .is-hidden {
     display: none;
