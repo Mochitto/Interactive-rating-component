@@ -1,3 +1,6 @@
+
+## ---- [Visit the live website](https://mochitto.github.io/Interactive-rating-component/) ----
+
 # Frontend Mentor - Interactive rating component solution
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -36,8 +39,8 @@ Expected:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-vsJVmkMzms)
+- [Live Site URL](https://mochitto.github.io/Interactive-rating-component/)
 
 ## My process
 I started building from the desktop version, noticing how the mobile version didn't change much, apart from the container.
