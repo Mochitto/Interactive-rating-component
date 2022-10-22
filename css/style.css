@@ -1,0 +1,120 @@
+/* - 
+- Light Grey: 
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+- Font size (paragraph): 15px
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700*/
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background: #141519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    font-size: 1.5rem;
+    color: hsl(217, 12%, 63%);
+    line-height: 150%;
+
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsl(217, 12%, 63%)
+}
+
+main {
+    background: #1c232d;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+#star {
+    background: #212c37 url("../images/icon-star.svg") no-repeat center;
+    background-size: 20px;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #212c37;
+    margin: 0 0 15px 0 
+}
+
+input.ball {
+    cursor: pointer;
+}
+
+span.rating-bar {
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="radio"] {
+    display: none
+}
+
+input[type="radio"]:hover + label {
+    background-color: #fc7613
+}
+
+input[type="radio"] + label {  
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+input[type="radio"]:checked + label {
+    background-color: hsl(217, 12%, 63%);
+  }
+
+input[type="radio"]:checked + label > span{
+    color: white
+  }
+
+
+button.ball {
+    display: block;
+    background: #fc7613;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+button.ball:hover {
+    color: #fc7613;
+    background: white;
+}
